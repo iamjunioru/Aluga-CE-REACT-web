@@ -1,9 +1,9 @@
 import React from 'react';
-import SignIn from './pages/SignIn';
+import Routes from './routes/route';  // Import from the correct path
 
 function App() {
   return (
-    <SignIn />
+    <Routes />
   );
 }
 
